@@ -1,0 +1,23 @@
+:root {
+  --color1: #9bdc3a;
+  --green-2: #3b7f26;
+  --dark-color: #081d10;
+}
+
+body {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(46, 59, 180, 0.16), transparent 32%),
+    linear-gradient(180deg, #030305 0%, #070711 55%, #030305 100%);
+}
+
+.hero {
+  background:
+    linear-gradient(90deg, rgba(3, 5, 4, 1) 0%, rgba(3, 5, 4, 0.82) 34%, rgba(3, 5, 4, 0.18) 74%, rgba(3, 5, 4, 0.86) 100%),
+    url("../../assets/Binatural.png") center right / cover no-repeat;
+}
+
+.tags span {
+  background: rgba(155, 220, 58, 0.09);
+  border: 1px solid rgba(155, 220, 58, 0.22);
+  color: #dff8c4;
+}

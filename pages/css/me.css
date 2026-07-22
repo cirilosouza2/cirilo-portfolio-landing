@@ -1,0 +1,23 @@
+:root {
+  --color1: #0f82fd;
+  --color2: #0C3DA8;
+  --dark-color: #041a49;
+}
+
+body {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(46, 89, 180, 0.16), transparent 32%),
+    linear-gradient(180deg, #030305 0%, #070711 55%, #030305 100%);
+}
+
+.hero {
+  background:
+    linear-gradient(90deg, rgb(3, 3, 5) 0%, rgba(3, 3, 5, 0.82) 34%, rgba(3, 3, 5, 0.18) 74%, rgba(3, 5, 4, 0.86) 100%),
+    url("../../assets/ME.png") center right / cover no-repeat;
+}
+
+.tags span {
+  background: rgba(58, 77, 220, 0.09);
+  border: 1px solid rgba(58, 134, 220, 0.22);
+  color: #dff8c4;
+}
