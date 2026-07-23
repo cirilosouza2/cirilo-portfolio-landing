@@ -19,5 +19,14 @@ body {
 .tags span {
   background: rgba(58, 77, 220, 0.09);
   border: 1px solid rgba(58, 134, 220, 0.22);
-  color: #dff8c4;
+  color: #c4d5f8;
+}
+
+.icon {
+  border: 1px solid rgba(58, 101, 220, 0.25);
+  background: rgba(58, 82, 220, 0.08);
+}
+
+.icon svg, .step-icon svg {
+  stroke: var(--color1);
 }

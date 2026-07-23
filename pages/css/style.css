@@ -231,6 +231,7 @@ h1 {
 
 .section-title p:not(.eyebrow),
 .split-section p,
+.split-section li,
 .result-content p {
   color: var(--muted);
   line-height: 1.75;
@@ -275,6 +276,11 @@ h1 {
   background: rgba(155, 220, 58, 0.08);
   font-size: 24px;
   margin-bottom: 28px;
+}
+
+.icon svg, .step-icon svg {
+  width: 32px;
+  height: 32px;
 }
 
 .summary-card h3,
