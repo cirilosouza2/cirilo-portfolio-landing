@@ -28,3 +28,9 @@ body {
 .icon svg, .step-icon svg {
   stroke: var(--color1);
 }
+
+@media (max-width: 640px) {
+ .hero {
+    background-position: center center;
+  }
+}

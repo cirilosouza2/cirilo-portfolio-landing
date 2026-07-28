@@ -458,6 +458,10 @@ h1 {
     width: min(100% - 32px, var(--max));
   }
 
+  .hero {
+    background-position: center center;
+  }
+
   .header {
     height: 76px;
   }
@@ -497,13 +501,6 @@ h1 {
   .section {
     padding: 64px 0;
   }
-
-  /* .summary-grid,
-  .steps,
-  .numbers-grid,
-  .result-list {
-    grid-template-columns: 1fr;
-  } */
 
   .steps,
   .numbers-grid,
