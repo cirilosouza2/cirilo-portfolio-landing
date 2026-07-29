@@ -1,0 +1,81 @@
+:root {
+  --color1: #fee250;
+}
+
+body {
+  background:
+    radial-gradient(circle at 80% 0%, rgba(46, 89, 180, 0.16), transparent 32%),
+    linear-gradient(180deg, #050503 0%, #111107 55%, #050503 100%);
+}
+
+.hero {
+  background:
+    linear-gradient(90deg, rgb(5, 5, 3) 0%, rgba(5, 5, 3, 0.82) 34%, rgba(3, 3, 5, 0.18) 74%, rgba(5, 5, 3, 0.86) 100%),
+    url("../../assets/apepe.png") center right / cover no-repeat;
+}
+
+.tags span {
+  background: rgba(209, 220, 58, 0.09);
+  border: 1px solid rgba(217, 220, 58, 0.22);
+  color: #fdfad2;
+}
+
+.icon {
+  border: 1px solid rgba(220, 217, 58, 0.25);
+  background: rgba(220, 217, 58, 0.08);
+}
+
+.icon svg, .step-icon svg {
+  stroke: var(--color1);
+}
+
+.summary-card {
+    width: 33%;
+}
+
+#resumo {
+    display: block;
+}
+
+.telas {
+    width: 100%;
+}
+
+.telas-carousel {
+    display: flex;
+    width: 100%;
+}
+
+.telas-carousel.owl-carousel {
+    display: block;
+}
+
+.telas-carousel.owl-carousel .owl-stage {
+    align-items: center;
+}
+
+.telas-carousel.owl-carousel .owl-item {
+    justify-content: center;
+}
+
+
+@media (max-width: 1024px) {
+  .summary-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 640px) {
+ .hero {
+    background-position: center center;
+  }
+
+  .summary-card {
+    width: 100%;
+  }
+
+  .telas-carousel {
+    flex-direction: column;
+}
+
+}
