@@ -29,6 +29,10 @@ body {
   stroke: var(--color1);
 }
 
+.section-image {
+    display: flex;
+}
+
 .summary-card {
     width: 33%;
 }
@@ -75,6 +79,10 @@ body {
   }
 
   .telas-carousel {
+    flex-direction: column;
+}
+
+.section-image {
     flex-direction: column;
 }
 
