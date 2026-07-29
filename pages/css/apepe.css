@@ -78,12 +78,7 @@ body {
     width: 100%;
   }
 
-  .telas-carousel {
+  .telas-carousel, .section-image {
     flex-direction: column;
 }
-
-.section-image {
-    flex-direction: column;
-}
-
 }
