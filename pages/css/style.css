@@ -230,6 +230,7 @@ h1 {
 }
 
 .section-title p:not(.eyebrow),
+.section ul,
 .split-section p,
 .split-section li,
 .result-content p {
